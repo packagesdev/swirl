@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44114751B712CE100F160D9 /* SWIRLSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F44114731B712CE100F160D9 /* SWIRLSettings.h */; };
+		F44114761B712CE100F160D9 /* SWIRLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F44114741B712CE100F160D9 /* SWIRLSettings.m */; };
+		F441147A1B7132D400F160D9 /* SWIRLUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F44114781B7132D400F160D9 /* SWIRLUserDefaults+Constants.h */; };
+		F441147B1B7132D400F160D9 /* SWIRLUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F44114791B7132D400F160D9 /* SWIRLUserDefaults+Constants.m */; };
+		F441147F1B714E0B00F160D9 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F441147D1B714E0B00F160D9 /* thumbnail.png */; };
+		F44114801B714E0B00F160D9 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F441147E1B714E0B00F160D9 /* thumbnail@2x.png */; };
+		F46E34671B7415DF0020BB72 /* SWIRLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46E34691B7415DF0020BB72 /* SWIRLConfigurationWindowController.xib */; };
+		F4AF1B061B6ADA9000CCD2C3 /* SwirlSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B021B6ADA9000CCD2C3 /* SwirlSaverView.h */; };
+		F4AF1B071B6ADA9000CCD2C3 /* SwirlSaverView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B031B6ADA9000CCD2C3 /* SwirlSaverView.mm */; };
+		F4AF1B091B6ADA9000CCD2C3 /* xswirl.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B051B6ADA9000CCD2C3 /* xswirl.h */; };
+		F4AF1B111B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B0A1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h */; };
+		F4AF1B121B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B0B1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m */; };
+		F4AF1B131B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4AF1B0C1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib */; };
+		F4AF1B141B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B0D1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h */; };
+		F4AF1B151B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B0E1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m */; };
+		F4AF1B161B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B0F1B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h */; };
+		F4AF1B171B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B101B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m */; };
+		F4AF1B1A1B6ADBFA00CCD2C3 /* xswirl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B041B6ADA9000CCD2C3 /* xswirl.cpp */; };
+		F4AF1B1F1B6ADD1700CCD2C3 /* SWIRLWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */; };
+		F4AF1B201B6ADD1700CCD2C3 /* SWIRLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B1E1B6ADD1700CCD2C3 /* SWIRLWindow.m */; };
+		F4AF1B281B6ADD8600CCD2C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4AF1B261B6ADD8600CCD2C3 /* Localizable.strings */; };
+		F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */; };
+		F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F44114731B712CE100F160D9 /* SWIRLSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLSettings.h; sourceTree = "<group>"; };
+		F44114741B712CE100F160D9 /* SWIRLSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLSettings.m; sourceTree = "<group>"; };
+		F44114781B7132D400F160D9 /* SWIRLUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SWIRLUserDefaults+Constants.h"; sourceTree = "<group>"; };
+		F44114791B7132D400F160D9 /* SWIRLUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SWIRLUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F441147D1B714E0B00F160D9 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = images/thumbnail.png; sourceTree = "<group>"; };
+		F441147E1B714E0B00F160D9 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "images/thumbnail@2x.png"; sourceTree = "<group>"; };
+		F46E34681B7415DF0020BB72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4AF1AF41B6ADA6100CCD2C3 /* Swirl.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swirl.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AF1AF81B6ADA6100CCD2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AF1B021B6ADA9000CCD2C3 /* SwirlSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwirlSaverView.h; sourceTree = "<group>"; };
+		F4AF1B031B6ADA9000CCD2C3 /* SwirlSaverView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SwirlSaverView.mm; sourceTree = "<group>"; };
+		F4AF1B041B6ADA9000CCD2C3 /* xswirl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xswirl.cpp; sourceTree = "<group>"; };
+		F4AF1B051B6ADA9000CCD2C3 /* xswirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xswirl.h; sourceTree = "<group>"; };
+		F4AF1B0A1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLAboutBoxWindowController.h; sourceTree = "<group>"; };
+		F4AF1B0B1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLAboutBoxWindowController.m; sourceTree = "<group>"; };
+		F4AF1B0C1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWIRLAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		F4AF1B0D1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLLightGrayBackgroundView.h; sourceTree = "<group>"; };
+		F4AF1B0E1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLLightGrayBackgroundView.m; sourceTree = "<group>"; };
+		F4AF1B0F1B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLSecondaryBox.h; sourceTree = "<group>"; };
+		F4AF1B101B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLSecondaryBox.m; sourceTree = "<group>"; };
+		F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLWindow.h; sourceTree = "<group>"; };
+		F4AF1B1E1B6ADD1700CCD2C3 /* SWIRLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLWindow.m; sourceTree = "<group>"; };
+		F4AF1B271B6ADD8600CCD2C3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLConfigurationWindowController.h; sourceTree = "<group>"; };
+		F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLConfigurationWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4AF1AF01B6ADA6100CCD2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4AF1AEA1B6ADA6100CCD2C3 = {
+			isa = PBXGroup;
+			children = (
+				F4AF1AF61B6ADA6100CCD2C3 /* Swirl */,
+				F4AF1AF51B6ADA6100CCD2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4AF1AF51B6ADA6100CCD2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF1AF41B6ADA6100CCD2C3 /* Swirl.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4AF1AF61B6ADA6100CCD2C3 /* Swirl */ = {
+			isa = PBXGroup;
+			children = (
+				F44114781B7132D400F160D9 /* SWIRLUserDefaults+Constants.h */,
+				F44114791B7132D400F160D9 /* SWIRLUserDefaults+Constants.m */,
+				F4AF1B251B6ADD3300CCD2C3 /* C++ */,
+				F44114731B712CE100F160D9 /* SWIRLSettings.h */,
+				F44114741B712CE100F160D9 /* SWIRLSettings.m */,
+				F4AF1B021B6ADA9000CCD2C3 /* SwirlSaverView.h */,
+				F4AF1B031B6ADA9000CCD2C3 /* SwirlSaverView.mm */,
+				F4AF1B181B6ADBC600CCD2C3 /* Configuration */,
+				F4AF1AF71B6ADA6100CCD2C3 /* Resources */,
+			);
+			path = Swirl;
+			sourceTree = "<group>";
+		};
+		F4AF1AF71B6ADA6100CCD2C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF1AF81B6ADA6100CCD2C3 /* Info.plist */,
+				F4AF1B261B6ADD8600CCD2C3 /* Localizable.strings */,
+				F4AF1B191B6ADBEC00CCD2C3 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4AF1B181B6ADBC600CCD2C3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF1B1C1B6ADD0600CCD2C3 /* Custom Views */,
+				F4AF1B0A1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h */,
+				F4AF1B0B1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m */,
+				F4AF1B0C1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib */,
+				F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */,
+				F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */,
+				F46E34691B7415DF0020BB72 /* SWIRLConfigurationWindowController.xib */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F4AF1B191B6ADBEC00CCD2C3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F441147D1B714E0B00F160D9 /* thumbnail.png */,
+				F441147E1B714E0B00F160D9 /* thumbnail@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F4AF1B1C1B6ADD0600CCD2C3 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */,
+				F4AF1B1E1B6ADD1700CCD2C3 /* SWIRLWindow.m */,
+				F4AF1B0D1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h */,
+				F4AF1B0E1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m */,
+				F4AF1B0F1B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h */,
+				F4AF1B101B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		F4AF1B251B6ADD3300CCD2C3 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF1B051B6ADA9000CCD2C3 /* xswirl.h */,
+				F4AF1B041B6ADA9000CCD2C3 /* xswirl.cpp */,
+			);
+			name = "C++";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4AF1AF11B6ADA6100CCD2C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AF1B1F1B6ADD1700CCD2C3 /* SWIRLWindow.h in Headers */,
+				F44114751B712CE100F160D9 /* SWIRLSettings.h in Headers */,
+				F4AF1B111B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h in Headers */,
+				F4AF1B161B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h in Headers */,
+				F441147A1B7132D400F160D9 /* SWIRLUserDefaults+Constants.h in Headers */,
+				F4AF1B061B6ADA9000CCD2C3 /* SwirlSaverView.h in Headers */,
+				F4AF1B091B6ADA9000CCD2C3 /* xswirl.h in Headers */,
+				F4AF1B141B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h in Headers */,
+				F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4AF1AF31B6ADA6100CCD2C3 /* Swirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AF1AFF1B6ADA6100CCD2C3 /* Build configuration list for PBXNativeTarget "Swirl" */;
+			buildPhases = (
+				F4AF1AEF1B6ADA6100CCD2C3 /* Sources */,
+				F4AF1AF01B6ADA6100CCD2C3 /* Frameworks */,
+				F4AF1AF11B6ADA6100CCD2C3 /* Headers */,
+				F4AF1AF21B6ADA6100CCD2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swirl;
+			productName = Swirl;
+			productReference = F4AF1AF41B6ADA6100CCD2C3 /* Swirl.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4AF1AEB1B6ADA6100CCD2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = stephane;
+				TargetAttributes = {
+					F4AF1AF31B6ADA6100CCD2C3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = F4AF1AEE1B6ADA6100CCD2C3 /* Build configuration list for PBXProject "Swirl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4AF1AEA1B6ADA6100CCD2C3;
+			productRefGroup = F4AF1AF51B6ADA6100CCD2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AF1AF31B6ADA6100CCD2C3 /* Swirl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4AF1AF21B6ADA6100CCD2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F441147F1B714E0B00F160D9 /* thumbnail.png in Resources */,
+				F46E34671B7415DF0020BB72 /* SWIRLConfigurationWindowController.xib in Resources */,
+				F4AF1B131B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib in Resources */,
+				F44114801B714E0B00F160D9 /* thumbnail@2x.png in Resources */,
+				F4AF1B281B6ADD8600CCD2C3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4AF1AEF1B6ADA6100CCD2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AF1B171B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m in Sources */,
+				F4AF1B151B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m in Sources */,
+				F44114761B712CE100F160D9 /* SWIRLSettings.m in Sources */,
+				F4AF1B121B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m in Sources */,
+				F4AF1B201B6ADD1700CCD2C3 /* SWIRLWindow.m in Sources */,
+				F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */,
+				F4AF1B1A1B6ADBFA00CCD2C3 /* xswirl.cpp in Sources */,
+				F441147B1B7132D400F160D9 /* SWIRLUserDefaults+Constants.m in Sources */,
+				F4AF1B071B6ADA9000CCD2C3 /* SwirlSaverView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46E34691B7415DF0020BB72 /* SWIRLConfigurationWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46E34681B7415DF0020BB72 /* en */,
+			);
+			name = SWIRLConfigurationWindowController.xib;
+			sourceTree = "<group>";
+		};
+		F4AF1B261B6ADD8600CCD2C3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AF1B271B6ADD8600CCD2C3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AF1AFD1B6ADA6100CCD2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4AF1AFE1B6ADA6100CCD2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4AF1B001B6ADA6100CCD2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Swirl/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F4AF1B011B6ADA6100CCD2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Swirl/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AF1AEE1B6ADA6100CCD2C3 /* Build configuration list for PBXProject "Swirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AF1AFD1B6ADA6100CCD2C3 /* Debug */,
+				F4AF1AFE1B6ADA6100CCD2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AF1AFF1B6ADA6100CCD2C3 /* Build configuration list for PBXNativeTarget "Swirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AF1B001B6ADA6100CCD2C3 /* Debug */,
+				F4AF1B011B6ADA6100CCD2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4AF1AEB1B6ADA6100CCD2C3 /* Project object */;
+}
