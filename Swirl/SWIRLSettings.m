@@ -15,6 +15,8 @@
 
 NSString * const SWIRLUserDefaultsNumberOfKnotsKey=@"Node";
 
+NSString * const SWIRLUserDefaultsColorCyclingSpeedKey=@"ColorCyclingSpeed";
+
 NSString * const SWIRLUserDefaultsTwoPlaneSupportKey=@"Plane";
 
 @implementation SWIRLSettings
@@ -30,6 +32,10 @@ NSString * const SWIRLUserDefaultsTwoPlaneSupportKey=@"Plane";
 		NSNumber * tNumber=inDictionary[SWIRLUserDefaultsNumberOfKnotsKey];
 		if (tNumber!=nil)
 			_numberOKnots=[tNumber unsignedIntegerValue];
+		
+		tNumber=inDictionary[SWIRLUserDefaultsColorCyclingSpeedKey];
+		if (tNumber!=nil)
+			_colorCyclingSpeed=[tNumber unsignedIntegerValue];
 		
 		tNumber=inDictionary[SWIRLUserDefaultsTwoPlaneSupportKey];
 		if (tNumber!=nil)
@@ -48,6 +54,7 @@ NSString * const SWIRLUserDefaultsTwoPlaneSupportKey=@"Plane";
 	if (tMutableDictionary!=nil)
 	{
 		tMutableDictionary[SWIRLUserDefaultsNumberOfKnotsKey]=@(_numberOKnots);
+		tMutableDictionary[SWIRLUserDefaultsColorCyclingSpeedKey]=@(_colorCyclingSpeed);
 		tMutableDictionary[SWIRLUserDefaultsTwoPlaneSupportKey]=@(_twoPlaneSupport);
 	}
 	
@@ -57,6 +64,8 @@ NSString * const SWIRLUserDefaultsTwoPlaneSupportKey=@"Plane";
 - (void)resetSettings
 {
 	_numberOKnots=5;
+	
+	_colorCyclingSpeed=2;
 	
 	_twoPlaneSupport=NO;
 }

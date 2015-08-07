@@ -17,6 +17,8 @@
 
 @property NSUInteger numberOKnots;
 
+@property NSUInteger colorCyclingSpeed;
+
 @property BOOL twoPlaneSupport;
 
 

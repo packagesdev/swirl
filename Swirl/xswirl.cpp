@@ -16,7 +16,8 @@
  * event will the author be liable for any lost revenue or profits or
  * other special, indirect and consequential damages.
  *
- * 01-May-01: Completely destroyed by Stephane Sudre to port it to Mac OS X
+ * 07-Aug-15: s.sudre@free.fr: Objectified and OpenGLified.
+ * 01-May-01: s.sudre@free.fr: port to Mac OS X
  * 13-May-97: jwz@jwz.org: turned into a standalone program.
  * 21-Apr-95: improved startup time for TrueColour displays
  *            (limited to 16bpp to save memory) S.Early <sde1000@cam.ac.uk>
@@ -33,7 +34,6 @@
 #include <string.h>
 
 #include <OpenGL/gl.h>
-#include <OpenGL/glu.h>
 
 #define LRAND()                    ((int) (random() & 0x7fffffff))
 #define MAXRAND                    (2147483648.0) /* unsigned 1<<31 as a float */
