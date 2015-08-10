@@ -20,28 +20,28 @@
         <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5" customClass="SWIRLWindow">
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="518" height="271"/>
+            <rect key="contentRect" x="196" y="240" width="451" height="271"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="518" height="271"/>
+                <rect key="frame" x="0.0" y="0.0" width="451" height="271"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <customView id="ISK-F1-gpD" customClass="SWIRLSecondaryBox">
-                        <rect key="frame" x="-1" y="61" width="520" height="48"/>
+                        <rect key="frame" x="-1" y="61" width="453" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <button id="tQr-RG-oDy">
-                                <rect key="frame" x="285" y="14" width="169" height="18"/>
+                                <rect key="frame" x="239" y="14" width="178" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Sólo pantalla principal" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rkI-2c-XTi">
+                                <buttonCell key="cell" type="check" title="Endast huvudbildskärm" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rkI-2c-XTi">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <textField verticalHuggingPriority="750" id="ZJN-h6-VT0">
-                                <rect key="frame" x="193" y="15" width="87" height="17"/>
+                                <rect key="frame" x="134" y="15" width="100" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Pantallas:" id="iGg-zV-pGM">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Bildskärmar:" id="iGg-zV-pGM">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -49,8 +49,19 @@
                             </textField>
                         </subviews>
                     </customView>
+                    <button verticalHuggingPriority="750" id="Ed6-xa-KuH">
+                        <rect key="frame" x="14" y="13" width="76" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Om…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="reM-69-gbi">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showAboutBox:" target="-2" id="9kZ-8Y-zne"/>
+                        </connections>
+                    </button>
                     <button verticalHuggingPriority="750" tag="1" id="mgQ-ul-wQn">
-                        <rect key="frame" x="420" y="13" width="84" height="32"/>
+                        <rect key="frame" x="353" y="13" width="84" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gd6-8D-gDX">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -64,20 +75,20 @@ DQ
                         </connections>
                     </button>
                     <customView id="2kY-tq-rEe" customClass="SWIRLLightGrayBackgroundView">
-                        <rect key="frame" x="-1" y="108" width="520" height="164"/>
+                        <rect key="frame" x="-1" y="108" width="453" height="164"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="6Md-ub-Q5t">
-                                <rect key="frame" x="150" y="127" width="130" height="17"/>
+                                <rect key="frame" x="146" y="127" width="88" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Número de nodos:" id="2AD-0T-uIA">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Antal knop:" id="2AD-0T-uIA">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" id="yBR-r4-stw">
-                                <rect key="frame" x="284" y="103" width="24" height="14"/>
+                                <rect key="frame" x="238" y="103" width="24" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="3" id="Vlb-AB-Yyg">
                                     <font key="font" metaFont="smallSystem"/>
@@ -86,7 +97,7 @@ DQ
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" id="CgS-sW-qHq">
-                                <rect key="frame" x="458" y="103" width="24" height="14"/>
+                                <rect key="frame" x="412" y="103" width="24" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="7" id="wag-v2-KIg">
                                     <font key="font" metaFont="smallSystem"/>
@@ -95,7 +106,7 @@ DQ
                                 </textFieldCell>
                             </textField>
                             <slider verticalHuggingPriority="750" id="WgB-DK-bRa">
-                                <rect key="frame" x="285" y="116" width="195" height="27"/>
+                                <rect key="frame" x="239" y="116" width="195" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" state="on" alignment="left" minValue="3" maxValue="7" doubleValue="3" tickMarkPosition="below" numberOfTickMarks="5" allowsTickMarkValuesOnly="YES" sliderType="linear" id="h1I-ey-Mw6"/>
                                 <connections>
@@ -103,16 +114,16 @@ DQ
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="h3N-7Y-RF1">
-                                <rect key="frame" x="11" y="44" width="269" height="17"/>
+                                <rect key="frame" x="13" y="44" width="221" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Velocidad de la rotación de los colores:" id="fNl-4f-5o9">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Rotationshastighet av färgerna:" id="fNl-4f-5o9">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" id="v2P-GC-Hj5">
-                                <rect key="frame" x="282" y="20" width="26" height="14"/>
+                                <rect key="frame" x="236" y="20" width="26" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="1x" id="80d-SE-QrP">
                                     <font key="font" metaFont="smallSystem"/>
@@ -121,7 +132,7 @@ DQ
                                 </textFieldCell>
                             </textField>
                             <slider verticalHuggingPriority="750" id="CcY-t6-xd6">
-                                <rect key="frame" x="285" y="33" width="195" height="27"/>
+                                <rect key="frame" x="239" y="33" width="195" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" state="on" alignment="left" minValue="1" maxValue="3" doubleValue="1" tickMarkPosition="below" numberOfTickMarks="3" allowsTickMarkValuesOnly="YES" sliderType="linear" id="uvo-pV-HEk"/>
                                 <connections>
@@ -129,9 +140,9 @@ DQ
                                 </connections>
                             </slider>
                             <button id="jWu-Wp-KwV">
-                                <rect key="frame" x="285" y="77" width="153" height="18"/>
+                                <rect key="frame" x="239" y="77" width="112" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Soporte dos planos" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="lVJ-xP-3df">
+                                <buttonCell key="cell" type="check" title="Stöd två plan" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="lVJ-xP-3df">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -140,7 +151,7 @@ DQ
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" id="jDA-th-7u9">
-                                <rect key="frame" x="457" y="20" width="25" height="14"/>
+                                <rect key="frame" x="411" y="20" width="25" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="3x" id="3m8-a6-Xdb">
                                     <font key="font" metaFont="smallSystem"/>
@@ -151,9 +162,9 @@ DQ
                         </subviews>
                     </customView>
                     <button verticalHuggingPriority="750" id="UQO-CK-1V0">
-                        <rect key="frame" x="325" y="13" width="95" height="32"/>
+                        <rect key="frame" x="271" y="13" width="82" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Cancelar" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bOm-La-lAH">
+                        <buttonCell key="cell" type="push" title="Avbryt" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bOm-La-lAH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
@@ -164,23 +175,12 @@ Gw
                             <action selector="closeDialog:" target="-2" id="79f-67-PEq"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="Ed6-xa-KuH">
-                        <rect key="frame" x="14" y="13" width="116" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Acerca de…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="reM-69-gbi">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="showAboutBox:" target="-2" id="9kZ-8Y-zne"/>
-                        </connections>
-                    </button>
                 </subviews>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
-            <point key="canvasLocation" x="517" y="398.5"/>
+            <point key="canvasLocation" x="421.5" y="433.5"/>
         </window>
     </objects>
 </document>

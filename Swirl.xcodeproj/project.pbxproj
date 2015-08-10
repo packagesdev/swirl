@@ -68,6 +68,8 @@
 		F4C6E38E1B77BE030091AD33 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLConfigurationWindowController.h; sourceTree = "<group>"; };
 		F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLConfigurationWindowController.m; sourceTree = "<group>"; };
+		F4FB8F7A1B791522002EB431 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4FB8F7B1B791522002EB431 /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				it,
 				de,
 				ja,
+				sv,
 			);
 			mainGroup = F4AF1AEA1B6ADA6100CCD2C3;
 			productRefGroup = F4AF1AF51B6ADA6100CCD2C3 /* Products */;
@@ -288,6 +291,7 @@
 				F498A6FA1B77E62700974EF7 /* it */,
 				F4AFD79F1B789CC1006B08DC /* de */,
 				F4C580FD1B79070A00D9491A /* ja */,
+				F4FB8F7A1B791522002EB431 /* sv */,
 			);
 			name = SWIRLConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 				F498A6FB1B77E62700974EF7 /* it */,
 				F4AFD7A01B789CC1006B08DC /* de */,
 				F4C580FE1B79070A00D9491A /* ja */,
+				F4FB8F7B1B791522002EB431 /* sv */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

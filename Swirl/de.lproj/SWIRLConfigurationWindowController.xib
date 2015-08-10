@@ -82,9 +82,9 @@ DQ
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="6Md-ub-Q5t">
-                                <rect key="frame" x="111" y="127" width="129" height="17"/>
+                                <rect key="frame" x="126" y="127" width="114" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Anzahl der Äste:" id="2AD-0T-uIA">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Anzahl Knoten:" id="2AD-0T-uIA">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
