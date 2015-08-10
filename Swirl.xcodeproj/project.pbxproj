@@ -62,6 +62,8 @@
 		F4AF1B271B6ADD8600CCD2C3 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4AFD79F1B789CC1006B08DC /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4AFD7A01B789CC1006B08DC /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4C580FD1B79070A00D9491A /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4C580FE1B79070A00D9491A /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4C6E38D1B77BE030091AD33 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4C6E38E1B77BE030091AD33 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLConfigurationWindowController.h; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				es,
 				it,
 				de,
+				ja,
 			);
 			mainGroup = F4AF1AEA1B6ADA6100CCD2C3;
 			productRefGroup = F4AF1AF51B6ADA6100CCD2C3 /* Products */;
@@ -284,6 +287,7 @@
 				F4C6E38D1B77BE030091AD33 /* es */,
 				F498A6FA1B77E62700974EF7 /* it */,
 				F4AFD79F1B789CC1006B08DC /* de */,
+				F4C580FD1B79070A00D9491A /* ja */,
 			);
 			name = SWIRLConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -296,6 +300,7 @@
 				F4C6E38E1B77BE030091AD33 /* es */,
 				F498A6FB1B77E62700974EF7 /* it */,
 				F4AFD7A01B789CC1006B08DC /* de */,
+				F4C580FE1B79070A00D9491A /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
