@@ -23,7 +23,7 @@
 
 #import "SWIRLWindow.h"
 
-@interface SWIRLConfigurationWindowController ()
+@interface SWIRLConfigurationWindowController () <SWIRLWindowDelegate>
 {
 	IBOutlet NSSlider *_numberOfKnotsSlider;
 	
@@ -174,7 +174,7 @@
 
 #pragma mark -
 
-- (void)window:(NSWindow *)inWindow modifierFlagsDidChange:(NSUInteger) inModifierFlags
+- (void)window:(NSWindow *)inWindow modifierFlagsDidChange:(NSEventModifierFlags) inModifierFlags
 {
 	if ((inModifierFlags & NSAlternateKeyMask) == NSAlternateKeyMask)
 	{

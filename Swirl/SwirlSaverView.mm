@@ -90,6 +90,43 @@
 	[[NSColor blackColor] set];
 	
 	NSRectFill(inFrame);
+	
+	if (_OpenGLIncompatibilityDetected==YES)
+	{
+		BOOL tShowErrorMessage=_mainScreen;
+		
+		if (tShowErrorMessage==NO)
+		{
+			NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
+			ScreenSaverDefaults *tDefaults = [ScreenSaverDefaults defaultsForModuleWithName:tIdentifier];
+			
+			tShowErrorMessage=![tDefaults boolForKey:SWIRLUserDefaultsMainDisplayOnly];
+		}
+		
+		if (tShowErrorMessage==YES)
+		{
+			NSRect tFrame=[self frame];
+			
+			NSMutableParagraphStyle * tMutableParagraphStyle=[[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+			[tMutableParagraphStyle setAlignment:NSCenterTextAlignment];
+			
+			NSDictionary * tAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[NSFont systemFontOfSize:[NSFont systemFontSize]],NSFontAttributeName,
+										  [NSColor whiteColor],NSForegroundColorAttributeName,
+										  tMutableParagraphStyle,NSParagraphStyleAttributeName,nil];
+			
+			
+			NSString * tString=NSLocalizedStringFromTableInBundle(@"Minimum OpenGL requirements\rfor this Screen Effect\rnot available\ron your graphic card.",@"Localizable",[NSBundle bundleForClass:[self class]],@"No comment");
+			
+			NSRect tStringFrame;
+			
+			tStringFrame.origin=NSZeroPoint;
+			tStringFrame.size=[tString sizeWithAttributes:tAttributes];
+			
+			tStringFrame=SSCenteredRectInRect(tStringFrame,tFrame);
+			
+			[tString drawInRect:tStringFrame withAttributes:tAttributes];
+		}
+	}
 }
 
 #pragma mark -
