@@ -30,6 +30,8 @@
 		F4AF1B281B6ADD8600CCD2C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4AF1B261B6ADD8600CCD2C3 /* Localizable.strings */; };
 		F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */; };
 		F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */; };
+		F4FA51971B7FE2AE0089E846 /* GLError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FA51951B7FE2AE0089E846 /* GLError.cpp */; };
+		F4FA51981B7FE2AE0089E846 /* GLError.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FA51961B7FE2AE0089E846 /* GLError.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		F4C6E38E1B77BE030091AD33 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLConfigurationWindowController.h; sourceTree = "<group>"; };
 		F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLConfigurationWindowController.m; sourceTree = "<group>"; };
+		F4FA51951B7FE2AE0089E846 /* GLError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLError.cpp; sourceTree = "<group>"; };
+		F4FA51961B7FE2AE0089E846 /* GLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLError.h; sourceTree = "<group>"; };
 		F4FB8F7A1B791522002EB431 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4FB8F7B1B791522002EB431 /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +168,8 @@
 		F4AF1B251B6ADD3300CCD2C3 /* C++ */ = {
 			isa = PBXGroup;
 			children = (
+				F4FA51961B7FE2AE0089E846 /* GLError.h */,
+				F4FA51951B7FE2AE0089E846 /* GLError.cpp */,
 				F4AF1B051B6ADA9000CCD2C3 /* xswirl.h */,
 				F4AF1B041B6ADA9000CCD2C3 /* xswirl.cpp */,
 			);
@@ -183,6 +189,7 @@
 				F4AF1B161B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h in Headers */,
 				F441147A1B7132D400F160D9 /* SWIRLUserDefaults+Constants.h in Headers */,
 				F4AF1B061B6ADA9000CCD2C3 /* SwirlSaverView.h in Headers */,
+				F4FA51981B7FE2AE0089E846 /* GLError.h in Headers */,
 				F4AF1B091B6ADA9000CCD2C3 /* xswirl.h in Headers */,
 				F4AF1B141B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h in Headers */,
 				F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */,
@@ -274,6 +281,7 @@
 				F4AF1B201B6ADD1700CCD2C3 /* SWIRLWindow.m in Sources */,
 				F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */,
 				F4AF1B1A1B6ADBFA00CCD2C3 /* xswirl.cpp in Sources */,
+				F4FA51971B7FE2AE0089E846 /* GLError.cpp in Sources */,
 				F441147B1B7132D400F160D9 /* SWIRLUserDefaults+Constants.m in Sources */,
 				F4AF1B071B6ADA9000CCD2C3 /* SwirlSaverView.mm in Sources */,
 			);

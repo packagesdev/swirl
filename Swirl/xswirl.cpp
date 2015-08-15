@@ -32,6 +32,9 @@
 
 #include <math.h>
 #include <string.h>
+#include <iostream>
+
+#include "GLError.h"
 
 #include <OpenGL/gl.h>
 
@@ -759,7 +762,7 @@ void swirl::_draw_block(uint32_t x, uint32_t y, uint32_t s, uint8_t v)
         glVertex2i(x,y+s);
     
     
-    if (_r==_max_resolution)
+    if (_r==_max_resolution && _index_table!=NULL)
         _index_table[x+_width*(_height-y)]=v;
 }
 
@@ -945,11 +948,10 @@ void swirl::resize(int inWidth,int inHeight)
     if (_index_table!=NULL)
         free(_index_table);
     
-    _index_table= (uint8_t *) calloc(_width*_height,sizeof(uint8_t));
-	if (_index_table!=NULL)
-    {
-        memset(_index_table,0,_width*_height);
-    }
+    _index_table= (uint8_t *) malloc(_width*_height*sizeof(uint8_t));
+	
+	if (_index_table==NULL)
+		std::cerr << "Not enough memory to allocate index_table buffer" << std::endl;
     
     /* opengl stuff */
 	
@@ -1072,7 +1074,7 @@ void swirl::draw(void)
 
 void swirl::rotate_colors(void)
 {
-	if (_shouldCreateProgram==true)
+	if (_shouldCreateProgram==true && _index_table!=NULL)
 	{
 		_shouldCreateProgram=false;
 		
@@ -1083,6 +1085,8 @@ void swirl::rotate_colors(void)
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, _width, _height, 0,GL_RED, GL_UNSIGNED_BYTE, _index_table);
+		
+		check_gl_error();
 		
 		char * fragmentSource=
 "uniform sampler2D index_texture;\n"
