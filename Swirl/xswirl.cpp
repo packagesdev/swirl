@@ -754,7 +754,7 @@ void swirl::_draw_block(uint32_t x, uint32_t y, uint32_t s, uint8_t v)
     int green = (tColor & 0x0000FF00)>>8;
     int blue = (tColor & 0x00FF0000)>>16;
     
-                  // Each set of 4 vertices form a quad
+	// Each set of 4 vertices form a quad
         glColor3f(red/255.0, green/255.0, blue/255.0);
         glVertex2i(x,y);    // x, y
         glVertex2i(x+s, y);
@@ -763,7 +763,7 @@ void swirl::_draw_block(uint32_t x, uint32_t y, uint32_t s, uint8_t v)
     
     
     if (_r==_max_resolution && _index_table!=NULL)
-        _index_table[x+_width*(_height-y)]=v;
+        _index_table[x+_width*(_height-y-1)]=v;
 }
 
 #pragma mark -
