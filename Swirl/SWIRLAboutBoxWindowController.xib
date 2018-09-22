@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">14E46</string>
-		<string key="IBDocument.InterfaceBuilderVersion">7525</string>
+		<string key="IBDocument.SystemVersion">14F2511</string>
+		<string key="IBDocument.InterfaceBuilderVersion">7706</string>
 		<string key="IBDocument.AppKitVersion">1348.17</string>
 		<string key="IBDocument.HIToolboxVersion">758.70</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">7525</string>
+			<string key="NS.object.0">7706</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSCustomObject</string>
@@ -66,13 +66,13 @@
 									<int key="NSfFlags">2072</int>
 								</object>
 								<reference key="NSControlView" ref="735753932"/>
-								<object class="NSColor" key="NSBackgroundColor" id="912019292">
+								<object class="NSColor" key="NSBackgroundColor" id="436205153">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">controlColor</string>
+									<string key="NSColorName">textBackgroundColor</string>
 									<object class="NSColor" key="NSColor">
 										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+										<bytes key="NSWhite">MQA</bytes>
 									</object>
 								</object>
 								<object class="NSColor" key="NSTextColor" id="475337558">
@@ -105,7 +105,7 @@
 									<int key="NSfFlags">3100</int>
 								</object>
 								<reference key="NSControlView" ref="292800590"/>
-								<reference key="NSBackgroundColor" ref="912019292"/>
+								<reference key="NSBackgroundColor" ref="436205153"/>
 								<reference key="NSTextColor" ref="475337558"/>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -124,7 +124,7 @@
 								<string type="base64-UTF8" key="NSContents">Q29weXJpZ2h0IMKpIC0yMDEzIFNvbWVvbmUKQWxsIHJpZ2h0cyByZXNlcnZlZC4</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="905085967"/>
-								<reference key="NSBackgroundColor" ref="912019292"/>
+								<reference key="NSBackgroundColor" ref="436205153"/>
 								<reference key="NSTextColor" ref="475337558"/>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -173,7 +173,7 @@
 								<string key="NSContents">Ported to OS X by Stéphane Sudre</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="13871555"/>
-								<reference key="NSBackgroundColor" ref="912019292"/>
+								<reference key="NSBackgroundColor" ref="436205153"/>
 								<reference key="NSTextColor" ref="475337558"/>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -185,6 +185,7 @@
 					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {2560, 1577}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">NO</bool>
 			</object>
 		</array>
@@ -342,7 +343,7 @@
 				<string key="-3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="NO" key="53.IBNSWindowAutoPositionCentersHorizontal"/>
 				<boolean value="NO" key="53.IBNSWindowAutoPositionCentersVertical"/>
-				<string key="53.IBPersistedLastKnownCanvasPosition">{364, 600}</string>
+				<string key="53.IBPersistedLastKnownCanvasPosition">{581, 547}</string>
 				<string key="53.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<reference key="54.IBNSViewMetadataConstraints" ref="0"/>
 				<reference key="54.IBNSViewMetadataGestureRecognizers" ref="0"/>

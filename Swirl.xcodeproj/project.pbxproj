@@ -20,14 +20,14 @@
 		F4AF1B111B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B0A1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h */; };
 		F4AF1B121B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B0B1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m */; };
 		F4AF1B131B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4AF1B0C1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib */; };
-		F4AF1B141B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B0D1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h */; };
-		F4AF1B151B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B0E1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m */; };
 		F4AF1B161B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B0F1B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h */; };
 		F4AF1B171B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B101B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m */; };
 		F4AF1B1A1B6ADBFA00CCD2C3 /* xswirl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B041B6ADA9000CCD2C3 /* xswirl.cpp */; };
 		F4AF1B1F1B6ADD1700CCD2C3 /* SWIRLWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */; };
 		F4AF1B201B6ADD1700CCD2C3 /* SWIRLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1B1E1B6ADD1700CCD2C3 /* SWIRLWindow.m */; };
 		F4AF1B281B6ADD8600CCD2C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4AF1B261B6ADD8600CCD2C3 /* Localizable.strings */; };
+		F4CFDA782135F7DC00C3BCEE /* SWIRLView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CFDA762135F7DC00C3BCEE /* SWIRLView.h */; };
+		F4CFDA792135F7DC00C3BCEE /* SWIRLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CFDA772135F7DC00C3BCEE /* SWIRLView.m */; };
 		F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */; };
 		F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */; };
 		F4FA51971B7FE2AE0089E846 /* GLError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FA51951B7FE2AE0089E846 /* GLError.cpp */; };
@@ -55,8 +55,6 @@
 		F4AF1B0A1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLAboutBoxWindowController.h; sourceTree = "<group>"; };
 		F4AF1B0B1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLAboutBoxWindowController.m; sourceTree = "<group>"; };
 		F4AF1B0C1B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWIRLAboutBoxWindowController.xib; sourceTree = "<group>"; };
-		F4AF1B0D1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLLightGrayBackgroundView.h; sourceTree = "<group>"; };
-		F4AF1B0E1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F4AF1B0F1B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLSecondaryBox.h; sourceTree = "<group>"; };
 		F4AF1B101B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLSecondaryBox.m; sourceTree = "<group>"; };
 		F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLWindow.h; sourceTree = "<group>"; };
@@ -68,6 +66,8 @@
 		F4C580FE1B79070A00D9491A /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4C6E38D1B77BE030091AD33 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4C6E38E1B77BE030091AD33 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4CFDA762135F7DC00C3BCEE /* SWIRLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLView.h; sourceTree = "<group>"; };
+		F4CFDA772135F7DC00C3BCEE /* SWIRLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLView.m; sourceTree = "<group>"; };
 		F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLConfigurationWindowController.h; sourceTree = "<group>"; };
 		F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLConfigurationWindowController.m; sourceTree = "<group>"; };
 		F4FA51951B7FE2AE0089E846 /* GLError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLError.cpp; sourceTree = "<group>"; };
@@ -155,10 +155,10 @@
 		F4AF1B1C1B6ADD0600CCD2C3 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F4CFDA762135F7DC00C3BCEE /* SWIRLView.h */,
+				F4CFDA772135F7DC00C3BCEE /* SWIRLView.m */,
 				F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */,
 				F4AF1B1E1B6ADD1700CCD2C3 /* SWIRLWindow.m */,
-				F4AF1B0D1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h */,
-				F4AF1B0E1B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m */,
 				F4AF1B0F1B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h */,
 				F4AF1B101B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m */,
 			);
@@ -185,13 +185,13 @@
 			files = (
 				F4AF1B1F1B6ADD1700CCD2C3 /* SWIRLWindow.h in Headers */,
 				F44114751B712CE100F160D9 /* SWIRLSettings.h in Headers */,
+				F4CFDA782135F7DC00C3BCEE /* SWIRLView.h in Headers */,
 				F4AF1B111B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.h in Headers */,
 				F4AF1B161B6ADB8300CCD2C3 /* SWIRLSecondaryBox.h in Headers */,
 				F441147A1B7132D400F160D9 /* SWIRLUserDefaults+Constants.h in Headers */,
 				F4AF1B061B6ADA9000CCD2C3 /* SwirlSaverView.h in Headers */,
 				F4FA51981B7FE2AE0089E846 /* GLError.h in Headers */,
 				F4AF1B091B6ADA9000CCD2C3 /* xswirl.h in Headers */,
-				F4AF1B141B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.h in Headers */,
 				F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AF1B171B6ADB8300CCD2C3 /* SWIRLSecondaryBox.m in Sources */,
-				F4AF1B151B6ADB8300CCD2C3 /* SWIRLLightGrayBackgroundView.m in Sources */,
 				F44114761B712CE100F160D9 /* SWIRLSettings.m in Sources */,
 				F4AF1B121B6ADB8300CCD2C3 /* SWIRLAboutBoxWindowController.m in Sources */,
 				F4AF1B201B6ADD1700CCD2C3 /* SWIRLWindow.m in Sources */,
 				F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */,
+				F4CFDA792135F7DC00C3BCEE /* SWIRLView.m in Sources */,
 				F4AF1B1A1B6ADBFA00CCD2C3 /* xswirl.cpp in Sources */,
 				F4FA51971B7FE2AE0089E846 /* GLError.cpp in Sources */,
 				F441147B1B7132D400F160D9 /* SWIRLUserDefaults+Constants.m in Sources */,
@@ -400,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				INFOPLIST_FILE = Swirl/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				INFOPLIST_FILE = Swirl/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
