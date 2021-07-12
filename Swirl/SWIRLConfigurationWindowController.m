@@ -86,20 +86,20 @@
 {
 	[super windowDidLoad];
 	
-	_savedCancelButtonFrame=[_cancelButton frame];
+	_savedCancelButtonFrame=_cancelButton.frame;
 }
 
 #pragma mark -
 
 - (void)restoreUI
 {
-	[_numberOfKnotsSlider setIntegerValue:_swirlSettings.numberOKnots];
+	_numberOfKnotsSlider.integerValue=_swirlSettings.numberOKnots;
 	
-	[_colorCyclingSpeedSlider setIntegerValue:_swirlSettings.colorCyclingSpeed];
+	_colorCyclingSpeedSlider.integerValue=_swirlSettings.colorCyclingSpeed;
 	
-	[_twoPlaneSupportButton setState:(_swirlSettings.twoPlaneSupport==YES) ? NSOnState : NSOffState];
+	_twoPlaneSupportButton.state=(_swirlSettings.twoPlaneSupport==YES) ? NSOnState : NSOffState;
 	
-	[_mainScreenCheckBox setState:(_mainScreenSetting==YES) ? NSOnState : NSOffState];
+	_mainScreenCheckBox.state=(_mainScreenSetting==YES) ? NSOnState : NSOffState;
 }
 
 - (IBAction)setNumberOfKnots:(id)sender
@@ -126,7 +126,7 @@
 	if (sAboutBoxWindowController==nil)
 		sAboutBoxWindowController=[SWIRLAboutBoxWindowController new];
 	
-	if ([sAboutBoxWindowController.window isVisible]==NO)
+	if (sAboutBoxWindowController.window.isVisible==NO)
 		[sAboutBoxWindowController.window center];
 	
 	[sAboutBoxWindowController.window makeKeyAndOrderFront:nil];
@@ -178,14 +178,14 @@
 {
 	if ((inModifierFlags & NSAlternateKeyMask) == NSAlternateKeyMask)
 	{
-		NSRect tOriginalFrame=[_cancelButton frame];
+		NSRect tOriginalFrame=_cancelButton.frame;
 		
-		[_cancelButton setTitle:NSLocalizedStringFromTableInBundle(@"Reset",@"Localizable",[NSBundle bundleForClass:[self class]],@"")];
-		[_cancelButton setAction:@selector(resetDialogSettings:)];
+		_cancelButton.title=NSLocalizedStringFromTableInBundle(@"Reset",@"Localizable",[NSBundle bundleForClass:[self class]],@"");
+		_cancelButton.action=@selector(resetDialogSettings:);
 		
 		[_cancelButton sizeToFit];
 		
-		NSRect tFrame=[_cancelButton frame];
+		NSRect tFrame=_cancelButton.frame;
 		
 		tFrame.size.width+=10.0;	// To compensate for sizeToFit stupidity
 		
@@ -194,14 +194,14 @@
 		
 		tFrame.origin.x=NSMaxX(tOriginalFrame)-NSWidth(tFrame);
 		
-		[_cancelButton setFrame:tFrame];
+		_cancelButton.frame=tFrame;
 	}
 	else
 	{
-		[_cancelButton setTitle:NSLocalizedStringFromTableInBundle(@"Cancel",@"Localizable",[NSBundle bundleForClass:[self class]],@"")];
-		[_cancelButton setAction:@selector(closeDialog:)];
+		_cancelButton.title=NSLocalizedStringFromTableInBundle(@"Cancel",@"Localizable",[NSBundle bundleForClass:[self class]],@"");
+		_cancelButton.action=@selector(closeDialog:);
 		
-		[_cancelButton setFrame:_savedCancelButtonFrame];
+		_cancelButton.frame=_savedCancelButtonFrame;
 	}
 }
 
