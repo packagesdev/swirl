@@ -30,6 +30,8 @@
 		F4CFDA792135F7DC00C3BCEE /* SWIRLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CFDA772135F7DC00C3BCEE /* SWIRLView.m */; };
 		F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */; };
 		F4F47C3D1B701958006DDF4C /* SWIRLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */; };
+		F4F67DFC21B676640078323E /* NSColor+LabelColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F67DFA21B676640078323E /* NSColor+LabelColor.h */; };
+		F4F67DFD21B676640078323E /* NSColor+LabelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F67DFB21B676640078323E /* NSColor+LabelColor.m */; };
 		F4FA51971B7FE2AE0089E846 /* GLError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FA51951B7FE2AE0089E846 /* GLError.cpp */; };
 		F4FA51981B7FE2AE0089E846 /* GLError.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FA51961B7FE2AE0089E846 /* GLError.h */; };
 /* End PBXBuildFile section */
@@ -70,6 +72,8 @@
 		F4CFDA772135F7DC00C3BCEE /* SWIRLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLView.m; sourceTree = "<group>"; };
 		F4F47C391B701958006DDF4C /* SWIRLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIRLConfigurationWindowController.h; sourceTree = "<group>"; };
 		F4F47C3A1B701958006DDF4C /* SWIRLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIRLConfigurationWindowController.m; sourceTree = "<group>"; };
+		F4F67DFA21B676640078323E /* NSColor+LabelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+LabelColor.h"; sourceTree = "<group>"; };
+		F4F67DFB21B676640078323E /* NSColor+LabelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+LabelColor.m"; sourceTree = "<group>"; };
 		F4FA51951B7FE2AE0089E846 /* GLError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLError.cpp; sourceTree = "<group>"; };
 		F4FA51961B7FE2AE0089E846 /* GLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLError.h; sourceTree = "<group>"; };
 		F4FB8F7A1B791522002EB431 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/SWIRLConfigurationWindowController.xib; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 		F4AF1B1C1B6ADD0600CCD2C3 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F4F67DFE21B676670078323E /* AppKit Extensions */,
 				F4CFDA762135F7DC00C3BCEE /* SWIRLView.h */,
 				F4CFDA772135F7DC00C3BCEE /* SWIRLView.m */,
 				F4AF1B1D1B6ADD1700CCD2C3 /* SWIRLWindow.h */,
@@ -176,6 +181,15 @@
 			name = "C++";
 			sourceTree = "<group>";
 		};
+		F4F67DFE21B676670078323E /* AppKit Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4F67DFA21B676640078323E /* NSColor+LabelColor.h */,
+				F4F67DFB21B676640078323E /* NSColor+LabelColor.m */,
+			);
+			name = "AppKit Extensions";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -193,6 +207,7 @@
 				F4FA51981B7FE2AE0089E846 /* GLError.h in Headers */,
 				F4AF1B091B6ADA9000CCD2C3 /* xswirl.h in Headers */,
 				F4F47C3C1B701958006DDF4C /* SWIRLConfigurationWindowController.h in Headers */,
+				F4F67DFC21B676640078323E /* NSColor+LabelColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +298,7 @@
 				F4AF1B1A1B6ADBFA00CCD2C3 /* xswirl.cpp in Sources */,
 				F4FA51971B7FE2AE0089E846 /* GLError.cpp in Sources */,
 				F441147B1B7132D400F160D9 /* SWIRLUserDefaults+Constants.m in Sources */,
+				F4F67DFD21B676640078323E /* NSColor+LabelColor.m in Sources */,
 				F4AF1B071B6ADA9000CCD2C3 /* SwirlSaverView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
